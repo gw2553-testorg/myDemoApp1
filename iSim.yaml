@@ -54,7 +54,7 @@ instances:
     dataCenter: RO          # [ GL | RO | Description (other) ]
     maintWindow: *mwA
   
-  winWebAppRO2:
+  winWebAppRO9:
     <<: *ro1
     
   winWebAppRO3:
