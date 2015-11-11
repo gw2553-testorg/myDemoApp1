@@ -13,14 +13,14 @@ template:
     secContact: contact2        # [email contact group]
     localAdmins: myAdminGroup1        # Local adimins group
    
-  mainWinA: 
-    maintWindow: &mwA 
+  mainWinA: &mwA 
+    maintWindow: 
       day: mon              #[mon,tue,wed,thu,fri,sat,sun]
       window: 0200          #[0200|0600|1000|1400|1800|2200] 
       SMStype: prod          # [ prod, staging, earlyAdopter, preprod, test ]
       
-  mainWinA: 
-    maintWindow: &mwB 
+  mainWinB: &mwB
+    maintWindow:  
       day: tue              #[mon,tue,wed,thu,fri,sat,sun]
       window: 0200          #[0200|0600|1000|1400|1800|2200] 
       SMStype: prod          # [ prod, staging, earlyAdopter, preprod, test ]
