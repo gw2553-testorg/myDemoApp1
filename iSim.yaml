@@ -64,6 +64,7 @@ instances:
   winWebAppRO4:
     <<: *ro1
     maintWindow: *mwB
+    size: '4/24'
     appDrives:
       d: 200
       e: 1000
