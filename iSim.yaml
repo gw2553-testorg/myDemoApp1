@@ -13,16 +13,16 @@ template:
     secContact: contact2        # [email contact group]
     localAdmins: myAdminGroup1        # Local adimins group
    
-  mainWinA: &mwA 
-    maintWindow: 
+  mainWinA: 
+    maintWindow: &mwA 
       day: mon              #[mon,tue,wed,thu,fri,sat,sun]
-      window: 0200          #[0200|0600|1000|1400|1800|2200] 
+      window: '0200'          #[0200|0600|1000|1400|1800|2200] 
       SMStype: prod          # [ prod, staging, earlyAdopter, preprod, test ]
       
-  mainWinB: &mwB
-    maintWindow:  
+  mainWinB: 
+    maintWindow: &mwB  
       day: tue              #[mon,tue,wed,thu,fri,sat,sun]
-      window: 0200          #[0200|0600|1000|1400|1800|2200] 
+      window: '0200'    #[0200|0600|1000|1400|1800|2200] 
       SMStype: prod          # [ prod, staging, earlyAdopter, preprod, test ]
     
   webAppServer: &webAppType1
