@@ -68,6 +68,7 @@ instances:
   winWebAppRO5:
     <<: *ro1
     maintWindow: *mwB
+    size: '4/24'
    
   
   nasAppShare2: 
