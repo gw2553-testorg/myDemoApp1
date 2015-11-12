@@ -38,35 +38,33 @@ instances:
     dataCenter: GL          # [ GL | RO | Description (other) ]
     maintWindow: *mwA
   
-  winWebAppGL1:
+  winWebAppGL1_1:
     <<: *gl1
     
-  winWebAppGL1:
-    <<: *gl1
-    maintWindow: *mwB
-    
-  winWebAppGL1:
+  winWebAppGL1_2:
     <<: *gl1
     maintWindow: *mwB
     
-  winWebAppRO1: &ro1
+  winWebAppGL1_3:
+    <<: *gl1
+    maintWindow: *mwB
+    
+  winWebAppRO1_1: &ro1
     <<: *webAppType1
     dataCenter: RO          # [ GL | RO | Description (other) ]
     maintWindow: *mwA
   
-  winWebAppRO1:
+  winWebAppRO1_1:
     <<: *ro1
     
-  winWebAppRO1:
+  winWebAppRO1_2:
     <<: *ro1
     maintWindow: *mwB
  
-  winWebAppRO1:
+  winWebAppRO1_3:
     <<: *ro1
     maintWindow: *mwB
     
-
-  
   nasAppShare1: 
     eSHS: is_storage_nas
     dataCenter: GL          # [ GL | RO | Description (other) ]
