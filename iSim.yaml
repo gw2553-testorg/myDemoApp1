@@ -54,7 +54,7 @@ instances:
     dataCenter: RO          # [ GL | RO | Description (other) ]
     maintWindow: *mwA
   
-  winWebAppRO9:
+  winWebAppRO2:
     <<: *ro1
     
   winWebAppRO3:
@@ -64,10 +64,7 @@ instances:
   winWebAppRO4:
     <<: *ro1
     maintWindow: *mwB
-    size: '4/24'
-    appDrives:
-      d: 200
-      e: 1000
+   
   
   nasAppShare:
     eSHS: is_storage_nas
