@@ -38,14 +38,14 @@ instances:
     dataCenter: GL          # [ GL | RO | Description (other) ]
     maintWindow: *mwA
   
-  winWebAppGL1_2:
+  winWebAppGL2_1:
     <<: *gl1
     
-  winWebAppGL1_3:
+  winWebAppGL3_1:
     <<: *gl1
     maintWindow: *mwB
     
-  winWebAppGL1_4:
+  winWebAppGL4_1:
     <<: *gl1
     maintWindow: *mwB
     
@@ -54,14 +54,14 @@ instances:
     dataCenter: RO          # [ GL | RO | Description (other) ]
     maintWindow: *mwA
   
-  winWebAppRO1_2:
+  winWebAppRO2_1:
     <<: *ro1
     
-  winWebAppRO1_3:
+  winWebAppRO3_1:
     <<: *ro1
     maintWindow: *mwB
  
-  winWebAppRO1_4:
+  winWebAppRO4_1:
     <<: *ro1
     maintWindow: *mwB
     
