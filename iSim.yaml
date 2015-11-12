@@ -64,6 +64,10 @@ instances:
   winWebAppRO4:
     <<: *ro1
     maintWindow: *mwB
+    
+  winWebAppRO5:
+    <<: *ro1
+    maintWindow: *mwB
    
   
   nasAppShare2: 
