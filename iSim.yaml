@@ -55,14 +55,14 @@ instances:
     maintWindow: *mwA
   
   winWebAppRO12:
-    <<: *ro11
+    <<: *ro1
     
   winWebAppRO13:
-    <<: *ro11
+    <<: *ro1
     maintWindow: *mwB
  
   winWebAppRO14:
-    <<: *ro11
+    <<: *ro1
     maintWindow: *mwB
     
 
