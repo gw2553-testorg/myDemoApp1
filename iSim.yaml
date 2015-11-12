@@ -30,39 +30,39 @@ template:
     eSHS: is_server_windows_vm
     size: '2/8'                # [ 2/2 2/4 2/6 2/8 2/16 4/8 4/16 4/24]
     function: APP            # [ APP | DBS | WEB | etc... ] - (Defatult APP)
-    bim: 2012R2WebApp                  # [ 2008SP2Base|2008SP2WebApp|2008R2Base|2008R2WebApp|2012R2Base|2012R2WebApp ] 
+    bim: 2008R2WebApp                  # [ 2008SP2Base|2008SP2WebApp|2008R2Base|2008R2WebApp|2012R2Base|2012R2WebApp ] 
 
 instances:
-  winWebAppGL1: &gl1
+  winWebAppGL11: &gl11
     <<: *webAppType1
     dataCenter: GL          # [ GL | RO | Description (other) ]
     maintWindow: *mwA
   
-  winWebAppGL2:
+  winWebAppGL12:
     <<: *gl1
     
-  winWebAppGL3:
-    <<: *gl1
-    maintWindow: *mwB
-    
-  winWebAppGL4:
+  winWebAppGL13:
     <<: *gl1
     maintWindow: *mwB
     
-  winWebAppRO1: &ro1
+  winWebAppGL14:
+    <<: *gl1
+    maintWindow: *mwB
+    
+  winWebAppRO11: &ro11
     <<: *webAppType1
     dataCenter: RO          # [ GL | RO | Description (other) ]
     maintWindow: *mwA
   
-  winWebAppRO2:
-    <<: *ro1
+  winWebAppRO12:
+    <<: *ro11
     
-  winWebAppRO3:
-    <<: *ro1
+  winWebAppRO13:
+    <<: *ro11
     maintWindow: *mwB
  
-  winWebAppRO4:
-    <<: *ro1
+  winWebAppRO14:
+    <<: *ro11
     maintWindow: *mwB
     
 
