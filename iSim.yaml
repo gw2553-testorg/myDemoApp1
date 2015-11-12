@@ -61,7 +61,7 @@ instances:
     <<: *ro1
     maintWindow: *mwB
     
-  winWebAppRO4:
+  winWebAppRO6:
     <<: *ro1
     maintWindow: *mwB
     
