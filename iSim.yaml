@@ -65,11 +65,7 @@ instances:
     <<: *ro1
     maintWindow: *mwB
     
-  winWebAppRO5:
-    <<: *ro1
-    maintWindow: *mwB
-    size: '4/24'
-   
+
   
   nasAppShare2: 
     eSHS: is_storage_nas
