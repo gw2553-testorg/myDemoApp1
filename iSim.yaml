@@ -33,7 +33,7 @@ template:
     bim: 2008R2WebApp                  # [ 2008SP2Base|2008SP2WebApp|2008R2Base|2008R2WebApp|2012R2Base|2012R2WebApp ] 
 
 instances:
-  winWebAppGL11: &gl11
+  winWebAppGL11: &gl1
     <<: *webAppType1
     dataCenter: GL          # [ GL | RO | Description (other) ]
     maintWindow: *mwA
@@ -49,7 +49,7 @@ instances:
     <<: *gl1
     maintWindow: *mwB
     
-  winWebAppRO11: &ro11
+  winWebAppRO11: &ro1
     <<: *webAppType1
     dataCenter: RO          # [ GL | RO | Description (other) ]
     maintWindow: *mwA
