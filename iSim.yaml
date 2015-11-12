@@ -7,7 +7,7 @@ template:
     eccP1Restore: n      # [y|n] 
     envType: prod          # [prod|tpt|test|etest|dev]
     operationalHours: '24x7'  # [24x7|9-5|hardware|rogue]
-    managementLevel:  '24x7'  # [24x7|9-5|hardware|rogue]
+    managementLevel:  '24x7'  # [24x7|9-5|hardware|rogue] 
     recoveryTier: 2      # [0-9] 
     priContact: contact1        # [email contact group] 
     secContact: contact2        # [email contact group]
