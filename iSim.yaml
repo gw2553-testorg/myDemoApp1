@@ -33,35 +33,35 @@ template:
     bim: 2008R2WebApp                  # [ 2008SP2Base|2008SP2WebApp|2008R2Base|2008R2WebApp|2012R2Base|2012R2WebApp ] 
 
 instances:
-  winWebAppGL11: &gl1
+  winWebAppGL1: &gl1
     <<: *webAppType1
     dataCenter: GL          # [ GL | RO | Description (other) ]
     maintWindow: *mwA
   
-  winWebAppGL12:
+  winWebAppGL1:
     <<: *gl1
     
-  winWebAppGL13:
-    <<: *gl1
-    maintWindow: *mwB
-    
-  winWebAppGL14:
+  winWebAppGL1:
     <<: *gl1
     maintWindow: *mwB
     
-  winWebAppRO11: &ro1
+  winWebAppGL1:
+    <<: *gl1
+    maintWindow: *mwB
+    
+  winWebAppRO1: &ro1
     <<: *webAppType1
     dataCenter: RO          # [ GL | RO | Description (other) ]
     maintWindow: *mwA
   
-  winWebAppRO12:
+  winWebAppRO1:
     <<: *ro1
     
-  winWebAppRO13:
+  winWebAppRO1:
     <<: *ro1
     maintWindow: *mwB
  
-  winWebAppRO14:
+  winWebAppRO1:
     <<: *ro1
     maintWindow: *mwB
     
